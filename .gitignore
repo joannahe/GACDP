@@ -1,3 +1,5 @@
 *.zip
 .DS_Store
 UCI\ HAR\ Dataset/
+*.swp
+output.txt
