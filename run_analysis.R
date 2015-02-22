@@ -37,4 +37,4 @@ for (i in activity[,1]) {
 newdataset <- aggregate( total.all.columns[,3:length(total.all.columns)], list(subject = total.all.columns$subject, activity = total.all.columns$activity), mean )
 
 ## output the results for upload
-## write.table(newdataset,"output.txt",row.names=F)
+write.table(newdataset,"output.txt",row.names=F)
